@@ -17,6 +17,9 @@
 <body>
 	<header class="header">
 			<div class="container">
+				<div class="header__burger" id="burger__btn">
+					<span></span>
+				</div>
 				<div class="header__wrapper">
 					<div class="header__logo">
 						<img src="./assets/img/logo.svg" alt="logo">
@@ -41,6 +44,7 @@
 						<a href="tel:+73412576014">+7 (3412) 57-60-14</a>
 					</div>
 				</div>
+
 			</div>
 	</header>
 	<main>
@@ -54,7 +58,9 @@
 							Здесь вместо скучного портфолио и биографии
 							мы расскажем свою историю так, как есть</p>
 					</div>
-					<div class="intro__img"></div>
+					<div class="intro__img">
+						<img src="./assets/img/intro__foto.jpg" alt="">
+					</div>
 				</div>
 			</div>
 		</section>
@@ -182,7 +188,10 @@
 							   части стопы у основания пальцев), высота 
 							   подъёма (обхват самой высокой части стопы).</p>
 					</div>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/hXxJkv49U8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div class="video__box">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/hXxJkv49U8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					
 				</div>
 			</div>
 		</section>
@@ -196,14 +205,29 @@
 					   классическую обувь — и ровно с тем же уровнем перфекционизма
 					    и скрупулезности.</p>
 			</div>
-			<div class="handmade__gallery">
-				<div class="gallery__item gallery__img-1"></div>
-				<div class="gallery__item gallery__img-2"></div>
-				<div class="gallery__item gallery__img-3"></div>
-				<div class="gallery__item gallery__img-4"></div>
-				<div class="gallery__item gallery__img-5"></div>
-				<div class="gallery__item gallery__img-6"></div>
+			<div class="container">
+				<div class="handmade__gallery">
+					<div class="gallery__item ">
+						<img class="gallery__img" id="gallery__img-1" src="./assets/img/gallery/1.webp" alt="">
+					</div>
+					<div class="gallery__item gallery__img-2">
+						<img class="gallery__img" id="gallery__img-2" src="./assets/img/gallery/2.webp" alt="">
+					</div>
+					<div class="gallery__item gallery__img-3">
+						<img class="gallery__img" id="gallery__img-3" src="./assets/img/gallery/3.webp" alt="">
+					</div>
+					<div class="gallery__item gallery__img-4">
+						<img class="gallery__img" id="gallery__img-4" src="./assets/img/gallery/4.webp" alt="">
+					</div>
+					<div class="gallery__item gallery__img-5">
+						<img class="gallery__img" id="gallery__img-5" src="./assets/img/gallery/5.webp" alt="">
+					</div>
+					<div class="gallery__item gallery__img-6">
+						<img class="gallery__img" id="gallery__img-6" src="./assets/img/gallery/6.webp" alt="">
+					</div>
+				</div>
 			</div>
+			
 		</section>
 		<section class="material">
 			<div class="container-m">
@@ -216,11 +240,11 @@
 					кожи даёт мягкость при ходьбе, а подошва из вулканизированной
 					 резины обеспечивает амортизацию. Хотя наши кеды не
 					  предназначены для занятий спортом, отзыв большинства клиентов: 
-					  еще ни в одних кроссовках и кедах мне не было так легко ходить!
+					  <strong>еще ни в одних кроссовках и кедах мне не было так легко ходить!</strong>
 				</p>
 			</div>
 			<div class="second__slider">
-				<img src="./assets/img/second-slider/2.webp" alt="">
+				<img src="./assets/img/second-slider/1.webp" alt="">
 			</div>
 		</section>
 		<section class="edition">
@@ -273,25 +297,104 @@
 			</div>
 		</section>
 		<section class="style">
-			<h2 class="style__title">Авторская роспись от художника. 
-				Любые сюжеты. Фантазии нет предела!</h2>
-			<div class="style__box">
-				<div class="style__item">
-
+			<div class="container-m">
+				<h2 class="style__title">Авторская роспись от художника. 
+					Любые сюжеты. Фантазии нет предела!</h2>
+				<div class="style__box">
+					<div class="style__item style__item-1">
+						<img id="style__item-1" src="./assets/img/style/1.jpg" alt="">
+					</div>
+					<div class="style__item style__item-2">
+						<img id="style__item-2" src="./assets/img/style/2.webp" alt="">
+					</div>
+					<div class="style__item style__item-3">
+						<img id="style__item-3" src="./assets/img/style/3.webp" alt="">
+					</div>
 				</div>
-				<div class="style__item">
-
+			</div>
+		</section>
+		<section class="catalog">
+			<div class="container-m">
+				<div class="catalog__wrapper">
+					<p class="catalog__text">
+						Следующим этапом стал выход в онлайн. 
+						Мы создали интернет-магазин, в котором заказать 
+						кожаные кеды SURNIN & NIKITIN может любой желающий:
+						мы организовали несколько вариантов оплаты и 
+						доставку с примеркой в любой город России. 
+						Онлайн-покупателям доступны все варианты расцветки 
+						и фасона, потому что каждые кеды для каждого заказчика 
+						создаются вручную с нуля — это по-прежнему индивидуальная
+						ручная работа.<br> <br> Узнать цены, ознакомиться с 
+						условиями оплаты и доставки, поиграть с кастомизацией
+						кед можно на странице каталога
+					</p>
+					<a class="catalog__link" href="#">Перейти в каталог</a>
 				</div>
-				<div class="style__item">
-
+			</div>
+		</section>
+		<section class="form__block">
+			<div class="container">
+				<div class="form__wrapper">
+					<div class="form__img">
+						<img src="./assets/img/form.jpg" alt="">
+					</div>
+					<div class="form__box">
+						<h2 class="form__title">Прямая связь с основателями
+						мануфактуры SURNIN & NIKITIN</h2>
+						<p class="form__subtitle">
+							С помощью этой формы можно задать нам вопрос,
+							поделиться предложением или оставить отзыв на 
+							продукцию.
+						</p>
+						<form action="#" class="form">
+							<input type="email" name="email" id="email" placeholder="Ваш Email">
+							<input type="text" placeholder="Ваше Имя">
+							<input type="tel" placeholder="Номер телефона">
+							<textarea name="comment" id="comment" cols="30" rows="3" placeholder="Ваш вопрос, комментарий или отзыв" style="resize: none" ></textarea>
+							<button type="submit" name="button">Отправить</button>
+							<label for="button">Отправляя форму, вы соглашаетесь с нашей<br> <mark>политикой конфиденциальности</mark></label>
+						</form>
+					</div>
 				</div>
 			</div>
 		</section>
 	</main>
 	<footer class="footer">
-
+			<div class="container">
+				<div class="footer__burger" id="footer__burger__btn">
+					<span></span>
+				</div>
+				<div class="footer__wrapper">
+					<div class="footer__logo">
+						<img src="./assets/img/logo.svg" alt="logo">
+					</div>
+					<nav class="footer__nav">
+						<ul class="nav__list">
+							<li class="footer__link">
+								<a href="#">Купить кеды</a>
+							</li>
+							<li class="footer__link">
+								<a href="#">Оплата и доставка</a>
+							</li>
+							<li class="footer__link">
+								<a href="#">О компании</a>
+							</li>
+							<li class="footer__link">
+								<a href="#">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="footer__tel">
+						<a href="tel:+73412576014">+7 (3412) 57-60-14</a>
+					</div>
+				</div>
+			</div>
 	</footer>
+<script src="./assets/index.js"></script>
+
 </body>
 </html>
+
 
 
