@@ -906,6 +906,10 @@ html {
 
 	}
 
+	.handmade__gallery {
+		margin: 0 -15px;
+	}
+
 	.edition__box {
 		display: grid;
 		grid-template-columns: auto;
