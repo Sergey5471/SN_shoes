@@ -108,12 +108,10 @@ html {
 
 .about__text {
 	padding: 0 20rem;
-	font-family: 'Roboto',Arial,sans-serif;
 	font-size: 2rem;
     line-height: 1.55;
 	font-weight: 300;
-    color: #000;
-	margin-bottom: 9.5rem;
+    margin-bottom: 9.5rem;
 }
 
 .first__slider img {
@@ -177,9 +175,8 @@ html {
 .persons__result__text {
 	font-size: 2rem;
     line-height: 1.55;
-	font-family: 'Roboto',Arial,sans-serif;
-    font-weight: 300;
-    color: #000;
+	font-weight: 300;
+    
 }
 
 .persons__result img {
@@ -261,18 +258,14 @@ html {
 .video__text {
 	font-size: 2rem;
     line-height: 1.55;
-    font-family: 'Roboto',Arial,sans-serif;
     font-weight: 300;
-    color: #000;
-	max-width: 47%;
+    max-width: 47%;
 }
 
 .handmade__title {
 	font-size: 4.2rem;
-    line-height: 1.23;
-    font-family: 'Roboto',Arial,sans-serif;
-    font-weight: 600;
-    color: #000;
+	line-height: 1.23;
+	font-weight: 600;
 	text-align: center;
 	margin-bottom: 6rem;
 }
@@ -280,9 +273,7 @@ html {
 .handmade__text {
 	font-size: 2rem;
 	line-height: 1.55;
-	font-family: 'Roboto',Arial,sans-serif;
 	font-weight: 300;
-	color: #000;
 	margin-bottom: 6rem;
 	padding: 0 20rem;
 }
@@ -313,9 +304,7 @@ html {
 .material__title {
 	font-size: 4.2rem;
     line-height: 1.23;
-    font-family: 'Roboto',Arial,sans-serif;
     font-weight: 600;
-    color: #000;
 	text-align: center;
 	margin-bottom: 4rem;
 	padding: 0 20rem;
@@ -324,9 +313,7 @@ html {
 .material__text {
 	font-size: 2rem;
 	line-height: 1.55;
-	font-family: 'Roboto',Arial,sans-serif;
 	font-weight: 300;
-	color: #000;
 	margin-bottom: 6rem;
 	padding: 0 20rem;
 }
@@ -347,9 +334,7 @@ html {
 .edition__title {
 	font-size: 4.2rem;
 	line-height: 1.23;
-	font-family: 'Roboto',Arial,sans-serif;
 	font-weight: 600;
-	color: #000;
 	text-align: center;
 	margin-bottom: 4rem;
 }
@@ -357,9 +342,7 @@ html {
 .edition__subtitle {
 	font-size: 2.4rem;
     line-height: 1.5;
-    font-family: 'Roboto',Arial,sans-serif;
     font-weight: 300;
-    color: #000;
 	text-align: center;
 	margin-bottom: 9rem;
 	padding: 0 20rem;
@@ -394,9 +377,8 @@ html {
 .edition__item__title {
 	font-size: 2rem;
 	line-height: 1.35;
-	font-family: 'Roboto',Arial,sans-serif;
 	font-weight: 600;
-	color: #000;
+
 	margin-bottom: 1.4rem;
 	
 }
@@ -404,9 +386,8 @@ html {
 .edition__item__text {
 	font-size: 1.8rem;
 	line-height: 1.55;
-	font-family: 'Roboto',Arial,sans-serif;
 	font-weight: 300;
-	color: #000;
+
 }
 
 .details {
@@ -416,9 +397,7 @@ html {
 .details__title {
 	font-size: 4.2rem;
     line-height: 1.23;
-    font-family: 'Roboto',Arial,sans-serif;
     font-weight: 600;
-    color: #000;
 	text-align: center;
 	margin-bottom: 9.5rem;
 }
@@ -477,9 +456,7 @@ html {
 .catalog__text {
 	font-size: 2rem;
     line-height: 1.55;
-    font-family: 'Roboto',Arial,sans-serif;
     font-weight: 300;
-    color: #000;
 	margin-bottom: 4rem;
 }
 
@@ -525,19 +502,16 @@ html {
 	margin-bottom: 2rem;
     font-size: 4.2rem;
     line-height: 1.23;
-    font-family: 'Roboto',Arial,sans-serif;
     font-weight: 600;
-    color: #000;
 }
 
 .form__subtitle {
 	padding-bottom: 3rem;
 	font-size: 2rem;
 	line-height: 1.55;
-	font-family: 'Roboto',Arial,sans-serif;
 	font-weight: 300;
-	color: #000;
 }
+
 .form input, textarea {
 	display: block;
 	background-color: #fd9100;
@@ -571,9 +545,7 @@ html {
 .form label {
 	font-size: 1.5rem;
 	line-height: 1.55;
-	font-family: 'Roboto',Arial,sans-serif;
 	font-weight: 300;
-	color: #000;
 }
 
 .form label mark {
