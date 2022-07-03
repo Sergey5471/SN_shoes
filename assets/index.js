@@ -5,22 +5,24 @@ burgerBtn.addEventListener('click', function () {
 	burgerBtn.classList.toggle('burger__active')
 })
 
-const firstSwiper = new Swiper('.first__swiper', {
-	loop: true,
-	slidesPerView: 2.8,
-	spaceBetween: 40,
-	centeredSlides: true,
 
- 	
+const firstSwiperSecondary = new Swiper(".mySwiper", {
+	spaceBetween: 10,
+	slidesPerView: 6,
+	// navigation: {
+	// 	nextEl: ".swiper-button-next",
+	// 	prevEl: ".swiper-button-prev",
+	// },
 	
-	// Navigation arrows
+});
+const firstSwiperMain = new Swiper(".mySwiper2", {
+	loop: true,
+	effect: "fade",
 	navigation: {
-	  nextEl: '.swiper-button-next',
-	  prevEl: '.swiper-button-prev',
+	  nextEl: ".swiper-button-next",
+	  prevEl: ".swiper-button-prev",
 	},
-  
-	// And if we need scrollbar
-	scrollbar: {
-	  el: '.swiper-scrollbar',
+	thumbs: {
+	  swiper: firstSwiperSecondary,
 	},
-  });
+});
