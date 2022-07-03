@@ -563,6 +563,7 @@ html {
     line-height: 1.33;
 	margin-bottom: 2rem;
 	cursor: pointer;
+	border: none;
 
 }
 
@@ -581,6 +582,7 @@ html {
 
 .footer {
 	background-color: #000;
+	position: relative;
 }
 .footer__wrapper {
 	display: flex;
@@ -620,6 +622,7 @@ html {
 .opened {
 	display: block;
 }
+
 
 @media (max-width: 1250.75px) {
 	html {
