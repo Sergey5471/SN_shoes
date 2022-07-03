@@ -13,6 +13,7 @@
 	<meta name="theme-color" content="#ffffff">
 	<title>Обувная мануфактура S&N</title>
 	<link rel="stylesheet" href="./assets/fonts/stylesheet.css">
+	<link rel="stylesheet" href="./assets/vendors.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
@@ -78,7 +79,28 @@
 						 Клиенты приглашаются на примерку в мастерскую-шоурум в Ижевске. Цены — от 20 тысяч рублей за пару обуви.</p>
 				</div>
 				<div class="first__slider">
-					<img src="./assets/img/first-slider/1.webp" alt="">
+					<div class="first__swiper">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper">
+							<!-- Slides -->
+							<div class="swiper-slide">
+								<img src="./assets/img/first-slider/1.webp" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="./assets/img/first-slider/2.webp" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="./assets/img/first-slider/3.webp" alt="">
+							</div>
+						</div>
+						<!-- If we need navigation buttons -->
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+						
+						<!-- If we need scrollbar -->
+						<div class="swiper-scrollbar"></div>
+					</div>
+					
 				</div>
 			</div>
 		</section>
@@ -393,7 +415,8 @@
 				</div>
 			</div>
 	</footer>
-<script src="./assets/index.js"></script>
+	<script src="./assets/vendors.min.js"></script>
+	<script src="./assets/index.js"></script>
 
 </body>
 </html>

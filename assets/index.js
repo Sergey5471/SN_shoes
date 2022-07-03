@@ -5,10 +5,22 @@ burgerBtn.addEventListener('click', function () {
 	burgerBtn.classList.toggle('burger__active')
 })
 
-const footerBurgerBtn = document.getElementById('footer__burger__btn')
-let footerBurgerMenu = document.querySelector('.footer__wrapper')
-footerBurgerBtn.addEventListener('click', function () {
-	footerBurgerMenu.classList.toggle('active')
-	footerBurgerBtn.classList.toggle('burger__active')
-})
+const firstSwiper = new Swiper('.first__swiper', {
+	loop: true,
+	slidesPerView: 2.8,
+	spaceBetween: 40,
+	centeredSlides: true,
 
+ 	
+	
+	// Navigation arrows
+	navigation: {
+	  nextEl: '.swiper-button-next',
+	  prevEl: '.swiper-button-prev',
+	},
+  
+	// And if we need scrollbar
+	scrollbar: {
+	  el: '.swiper-scrollbar',
+	},
+  });
